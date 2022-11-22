@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: url('./Fonts/Montserrat-Regular.ttf'); */
+  font-family: "Montserrat", sans-serif;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.enter {
+  color: gray;
+  /* border: 5px solid red; */
+}
+
+.enter__info,
+.icon {
+  /* width: 70%; */
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 1.7rem;
+}
+
+input,
+select {
+  border: none;
+}
+
+.btn {
+  background-color: darkorange;
+  color: white;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+}

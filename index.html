@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Checkout Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main>
+        <form action="" class="contact">
+            <div class="contact__info">
+                <h3 class="info">Contact Information</h3>
+                <div class="enter">
+                    <div>
+                        <label for="email">Email</label>
+
+                    </div>
+                    <div class="enter__info">
+                        <i class="fa-solid fa-square-envelope"></i>
+                        <input type="email" name="email" id="email" placeholder="Enter your email...">
+
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+
+                    </div>
+                    <div class="enter__info">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="number" name="phone" id="phone" placeholder="Enter your phone...">
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="contact__address">
+                <h3 class="info">Shipping address</h3>
+                <div class="enter">
+                    <div>
+                        <label for="name">Full name</label>
+                    </div>
+                    <div class="enter__info">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" id="name" placeholder="Enter your Full name...">
+
+                    </div>
+                    <div>
+                        <label for="address">Address</label>
+                    </div>
+                    <div class="enter__info">
+                        <i class="fa-solid fa-house-user"></i>
+                        <input type="text" name="address" id="address" placeholder="Enter your address...">
+
+                    </div>
+                    <div>
+                        <label for="city">City</label>
+                    </div>
+                    <div class="enter__info">
+                        <i class="fa-solid fa-city"></i>
+                        <input type="text" name="city" id="city" placeholder="Enter your city...">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="contact__final">
+                <div class="enter2">
+                    <div class="enter2__country">
+                        <label for="country">Country</label>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <select name="country" id="country">
+                            <option value="Turkey">Turkey</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                            <option value="Canada">Canada</option>
+                        </select>
+
+                    </div>
+                    <div class="enter2__post">
+                        <label for="postCode">Post Code</label>
+                    </div>
+                    <div class="enter__info">
+                        <i class="fa-sharp fa-solid fa-envelopes-bulk"></i>
+                        <input type="text" name="city" id="city" placeholder="Enter your Postal Code...">
+
+                    </div>
+
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="next-time" id="nextTime">
+                    <label for="nextTime" id="nextTimeLabel">See this information next time</label>
+                </div>
+                <div>
+                    <button class="btn">Continue</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="shop">
+            <div class="shop__card1">
+                <img src="./Img/photo1.png" alt="Vintage Backbag">
+                <div class="card-info">
+                    <h2>Vintage Backbag</h2>
+                    <p>
+                        <span class="valid">$54.99</span>
+                        <span class="invalid">$94.99</span>
+                    </p>
+                    <div class="piece">
+                        <button>
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p>1</p>
+                        <button>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="shop__card2">
+                <img src="./Img/photo2.png" alt="Levi Shoes">
+                <div class="product-info">
+                    <h2>Levi shoes</h2>
+                    <p>
+                        <span class="valid">$74.99</span>
+                        <span class="invalid">$124.99</span>
+                    </p>
+                    <div class="piece">
+                        <button>
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p>1</p>
+                        <button>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="shop__result">
+                <div class="end-1">
+                    <p class="p1">Shipping</p>
+                    <p class="p2">$19</p>
+                </div>
+                <div class="end-2">
+                    <p class="p1">Total</p>
+                    <p class="p2">$148.99</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title1">Checkout</h1>
+    </header>
+    <main>
+        <form action class="informatin">
+            <div id="contact">
+                <h1>Contact İnformation</h1>
+                <div class="part" id="contact-input">
+                    <label for="email">Email</label> <br>
+                    <div class="icon">
+                        <input type="email" name="email" id="user-email" placeholder="Enter your email" required>
+                        <i class="fa-solid fa-square-envelope"></i>
+                    </div>
+                </div>
+                <div class="part">
+                    <label for="phone">Phone</label><br>
+                    <div class="icon">
+                        <input type="number" name="phone" id="phone-num" placeholder="Enter yoru phone number.."
+                            required>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="address">
+                        <h1>Shipping address</h1>
+                        <div class="part">
+                            <label for="name">Full Name</label>
+                            <div class="icon">
+                                <input type="text" placeholder="Enter your Full name.." required>
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="part">
+                                <label for="address">Address</label>
+                                <div class="icon">
+                                    <input type="text" placeholder="Enter your address" required>
+                                    <i class="fa-solid fa-house-user"></i>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <label for="city">City</label>
+                                <div class="icon">
+                                    <input type="text" placeholder="Enter your city" required>
+                                    <i class="fa-solid fa-city"></i>
+                                </div>
+                            </div>
+                            <div class="country-and-post">
+                                <div class="country">
+                                    <label for="country">Country</label> <br>
+                                    <div class="icon">
+                                        <select name="country" id="country">
+                                            <option value="Turkey">Turkey</option>
+                                            <option value="USA">USA</option>
+                                            <option value="UK">UK</option>
+                                            <option value="Canada">Canada</option>
+                                        </select>
+                                        <i class="fa-solid fa-earth-americas"></i>
+                                    </div>
+                                </div>
+                                <div class="post-code">
+                                    <label for="post-code">Post Code</label> <br>
+                                    <div class="icon">
+                                        <input type="text" placeholder="Enter your postal code" required>
+                                        <i class="fa-sharp fa-solid fa-envelopes-bulk"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="next-time" id="nextTime">
+                            <label for="nextTime" id="nextTimeLabel">See this information next time</label>
+                        </div>
+                        <div class="btn">
+                            <button>Continue</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="card-box">
+            <div class="card-box2">
+                <div class="card">
+                    <img src="./Img/photo1.png" alt="Vintage Backbag">
+                    <div class="card-info">
+                        <h2>Vintage Backbag</h2>
+                        <p>
+                            <span class="valid">$54.99</span>
+                            <span class="invalid">$94.99</span>
+                        </p>
+                        <div class="piece">
+                            <button>
+                                <i class="fa-solid fa-minus"></i>
+                            </button>
+                            <p>1</p>
+                            <button>
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./Img/photo2.png" alt="Levi Shoes">
+                    <div class="product-info">
+                        <h2>Levi shoes</h2>
+                        <p>
+                            <span class="valid">$74.99</span>
+                            <span class="invalid">$124.99</span>
+                        </p>
+                        <div class="piece">
+                            <button>
+                                <i class="fa-solid fa-minus"></i>
+                            </button>
+                            <p>1</p>
+                            <button>
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="result">
+                    <div class="end-1">
+                        <p class="p1">Shipping</p>
+                        <p class="p2">$19</p>
+                    </div>
+                    <div class="end-2">
+                        <p class="p1">Total</p>
+                        <p class="p2">$148.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html> -->
